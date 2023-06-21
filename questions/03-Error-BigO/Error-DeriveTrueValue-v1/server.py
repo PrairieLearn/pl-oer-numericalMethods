@@ -22,11 +22,3 @@ def generate(data):
     data["correct_answers"]["ans"] = true_val
 
     return data
-
-
-def grade(data):
-    if data["score"] != 1.0:
-        feedback = "In this problem, we are given the relative error and the amount of water used. To solve for the water suggested, we need to solve the following equation: rel_error = |x - water_used|/|x|. Note that because the water used was less than suggested, we can drop the absolute values making it easier to solve."
-    else:
-        feedback = ""
-    data["feedback"]["question_feedback"] = feedback

@@ -30,12 +30,3 @@ def generate(data):
     data["params"]["ndec"] = decimalNumber
 
     data["correct_answers"]["g"] = binSign
-
-
-def grade(data):
-    if data["score"] != 1.0:
-        feedback = "You may consider converting the number into binary at first."
-    else:
-        feedback = ""
-
-    data["feedback"]["question_feedback"] = feedback

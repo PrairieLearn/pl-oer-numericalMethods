@@ -93,11 +93,3 @@ def generate(data):
     pstring = "\\infty" if p == np.inf else str(p)
     data["params"]["p"] = pstring
     return data
-
-
-def grade(data):
-    if data["score"] != 1.0:
-        feedback = "For this problem, we need to consider the definition of a p-norm of a matrix. Then, we need to find the vector that maximizes the quantity, according to the definition. See section The matrix p-norm for notes on Vectors, Matrices, and Norms. https://courses.engr.illinois.edu/cs357/notes/ref-8-vec-mat.html"
-    else:
-        feedback = ""
-    data["feedback"]["question_feedback"] = feedback

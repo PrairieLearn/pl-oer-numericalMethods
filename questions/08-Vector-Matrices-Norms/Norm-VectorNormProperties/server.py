@@ -30,11 +30,3 @@ def generate(data):
     data["correct_answers"]["lin"] = e1_me * abs(A) + e2_me * abs(B)
 
     return data
-
-
-def grade(data):
-    if data["score"] != 1.0:
-        feedback = "For this problem, we need to know the properties of a vector norm. In particular we will be using homogeneity and the triangle inequality. See section on Vector Norm in notes for Vectors, Matrices and Norms. https://courses.engr.illinois.edu/cs357/notes/ref-8-vec-mat.html"
-    else:
-        feedback = ""
-    data["feedback"]["question_feedback"] = feedback

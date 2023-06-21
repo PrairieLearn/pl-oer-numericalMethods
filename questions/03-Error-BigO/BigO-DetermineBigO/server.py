@@ -16,11 +16,3 @@ def generate(data):
 
     data["correct_answers"]["alpha"] = min(exp1, exp2)
     return data
-
-
-def grade(data):
-    if data["score"] != 1.0:
-        feedback = "To find the exponent $\\alpha$, we need to find the exponent corresponding to the term that will result in the largest number. Note that $0 < h < 1$. Do values in this range grow larger or smaller more rapidly the larger the exponent?"
-    else:
-        feedback = ""
-    data["feedback"]["question_feedback"] = feedback

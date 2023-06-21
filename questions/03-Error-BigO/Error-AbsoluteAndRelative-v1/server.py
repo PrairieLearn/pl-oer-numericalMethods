@@ -33,15 +33,3 @@ def generate(data):
     data["correct_answers"]["ans"] = rel_error if prompt_type_rand else abs_error
 
     return data
-
-
-def grade(data):
-    if data["score"] != 1.0:
-        if "relative error" in data["params"]["prompt"]:
-            feedback = "Relative error: |water_required - water_used|/|water_required|"
-        elif "absolute error" in data["params"]["prompt"]:
-            feedback = "Absolute error: |water_required - water_used|"
-    else:
-        feedback = ""
-
-    data["feedback"]["question_feedback"] = feedback

@@ -45,11 +45,3 @@ def generate(data):
     data["correct_answers"]["f"] = error
 
     return data
-
-
-def grade(data):
-    if data["score"] != 1.0:
-        feedback = "The first bit to the left of the binary point is 1 which suggests that the question is asking about normalized floating points. Your next step should be trying to figure out what value of the exponent, $m$, would allow you to construct the most accurate FP representation given the rounding system. For more information please refer to slides 12-16 in the 'Floating Point' section."
-    else:
-        feedback = ""
-    data["feedback"]["question_feedback"] = feedback

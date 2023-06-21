@@ -46,25 +46,3 @@ def generate(data):
     data["params"]["debug"]["decimal_2"] = [c2, f2]
 
     return data
-
-
-def grade(data):
-    if data["score"] != 1.0 and ("debug" in data["params"]):
-        feedback = "<hr>"
-
-        feedback += "Check if you have the calculated the following correctly:"
-        if (
-            data["submitted_answers"]["decimal_1"]
-            != data["correct_answers"]["decimal_1"]
-        ):
-            c1, f1 = data["params"]["debug"]["decimal_1"]
-            feedback += "<p> <strong>a) </strong> $c=%d, f=%f$" % (c1, f1)
-        if (
-            data["submitted_answers"]["decimal_2"]
-            != data["correct_answers"]["decimal_2"]
-        ):
-            c1, f1 = data["params"]["debug"]["decimal_2"]
-            feedback += "<p> <strong>b) </strong> $c=%d, f=%f$" % (c1, f1)
-    else:
-        feedback = ""
-    data["feedback"]["question_feedback"] = feedback

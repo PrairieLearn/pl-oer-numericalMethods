@@ -54,8 +54,6 @@ def generate(data):
     steepest_iterate = steepest_descent(x0).reshape((2, 1))
     newton_iterate = newtons_method(x0).reshape((2, 1))
 
-    # data["correct_answers"]["newton_iterate"] = np.array([[1.59547, -0.41352]])
-    # data["correct_answers"]["steepest_iterate"] = np.array([[1.19226063, -0.01288472]])
     data["params"]["alpha"] = alpha
     data["correct_answers"]["x0"] = pl.to_json(x0 / np.pi)
 

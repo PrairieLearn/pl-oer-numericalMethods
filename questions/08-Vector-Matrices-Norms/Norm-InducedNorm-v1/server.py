@@ -40,11 +40,3 @@ def generate(data):
     data["correct_answers"]["f"] = int(inf_norm)
 
     return data
-
-
-def grade(data):
-    if data["score"] != 1.0:
-        feedback = "See section The matrix p-norm in notes for Vectors, Matrices, and Norms. https://courses.engr.illinois.edu/cs357/notes/ref-8-vec-mat.html"
-    else:
-        feedback = ""
-    data["feedback"]["question_feedback"] = feedback

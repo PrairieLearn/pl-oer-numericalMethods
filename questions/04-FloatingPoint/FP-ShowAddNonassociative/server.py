@@ -13,6 +13,3 @@ def grade(data):
 
     else:
         data["score"] = 0
-        # data['partial_scores']['x'] = {'score': 0}
-        # data['partial_scores']['y'] = {'score': 0}
-        # data['partial_scores']['z'] = {'score': 0}

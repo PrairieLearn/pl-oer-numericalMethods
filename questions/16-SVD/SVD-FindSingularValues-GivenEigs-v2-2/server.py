@@ -45,6 +45,5 @@ def generate(data):
     data["params"]["sL"] = idx + 1
 
     data["correct_answers"]["s"] = lambdavec[idx]
-    # data["correct_answers"]["V"] = pl.to_json(X)
 
     return data

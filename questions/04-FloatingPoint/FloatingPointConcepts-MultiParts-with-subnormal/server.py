@@ -29,14 +29,3 @@ def generate(data):
     data["correct_answers"]["emach"] = 2 ** (-s_bits)  # 0.125
 
     return data
-
-
-def grade(data):
-    if data["score"] != 1.0:
-        feedback = (
-            "You may consider check the page 12 and 17 of the annotated FP slides "
-        )
-    else:
-        feedback = ""
-
-    data["feedback"]["question_feedback"] = feedback
