@@ -1,0 +1,12 @@
+{
+  "uuid": "a45ac06c-2f3b-446d-a5f4-98f654f20e7a",
+  "title": "Newton vs. Secant for Nonlinear Equations",
+  "topic": "NonlinearSolve1D",
+  "type": "v3",
+  "tags": [
+    "author:prairielearn.com",
+    "license:CC-BY-NC",
+    "fa18",
+    "mc"
+  ]
+}

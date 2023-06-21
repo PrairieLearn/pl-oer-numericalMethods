@@ -1,0 +1,20 @@
+{
+  "uuid": "b0507427-aef7-49fc-8c60-53bf5708b9c6",
+  "title": "Find Pseudo-Inverse Given SVD",
+  "topic": "SVD",
+  "tags": [
+    "author:prairielearn.com",
+    "license:CC-BY-NC",
+    "sp20",
+    "short-coding"
+  ],
+  "type": "v3",
+  "singleVariant": true,
+  "gradingMethod": "External",
+  "externalGradingOptions": {
+    "enabled": true,
+    "image": "prairielearn/grader-python",
+    "entrypoint": "/python_autograder/run.sh",
+    "timeout": 30
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "133c7b3a-c36b-11e8-a355-529269fb1459",
+  "title": "Representing a Sparse Matrix in CSR Format",
+  "topic": "Model-sparse",
+  "type": "v3",
+  "tags": [
+    "author:prairielearn.com",
+    "license:CC-BY-NC",
+    "fa18",
+    "calculation"
+  ]
+}

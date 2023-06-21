@@ -1,0 +1,25 @@
+
+<pl-question-panel>
+      {{{params.prompt}}}
+</pl-question-panel>
+<p><br/></p>
+<p>
+<pl-number-input answers-name="ans" atol="1e-8" comparison="relabs" label="$error= $" rtol="1e-6"></pl-number-input>
+</p>
+<pl-question-panel>
+<p><strong>Note the expected tolerance that we use to check your answers.</strong></p>
+</pl-question-panel>
+
+{{#feedback.question_feedback}}
+<pl-answer-panel>
+<p class="mt-4"> {{{ feedback.question_feedback }}} </p>
+</pl-answer-panel>
+{{/feedback.question_feedback}}
+
+
+<pl-question-panel>
+<hr/>
+<p class="small text-muted">
+    Problem is from the <a href="https://www.prairielearn.com/oer">PrairieLearn OER repository</a>, licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>.
+    </p>
+</pl-question-panel>

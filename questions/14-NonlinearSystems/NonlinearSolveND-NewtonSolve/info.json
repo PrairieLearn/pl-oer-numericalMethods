@@ -1,0 +1,12 @@
+{
+  "uuid": "254c7f2f-9149-4d5f-8fdf-7575f3e0c11c",
+  "title": "Newton Solve",
+  "topic": "NonlinearSolveND",
+  "type": "v3",
+  "tags": [
+    "author:prairielearn.com",
+    "license:CC-BY-NC",
+    "fa18",
+    "calculation"
+  ]
+}

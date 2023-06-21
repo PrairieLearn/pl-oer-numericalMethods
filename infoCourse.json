@@ -1,32 +1,44 @@
 {
-    "uuid": "2851111a-88f3-450f-950a-1d8c173c34ad",
+    "uuid": "28d7be8c-4e01-41e0-bd6b-6827ef18aef9",
     "name": "OER 106",
     "title": "Numerical Methods",
-    "assessmentSets": [
-        {
-            "abbreviation": "G",
-            "name": "Gallery",
-            "heading": "Gallery of questions using different PrairieLearn elements",
-            "color": "orange1",
-            "description": "Gallery of PL questions"
-        }
-    ],
     "options": {
         "useNewQuestionRenderer": true
     },
+    "assessmentSets": [  
+      {"abbreviation": "QB", "name": "questionBank", "heading": "Question Bank", "color": "pink1"}
+    ],
+    "assessmentModules": [
+    ],
     "topics": [
-        {
-            "name": "Gallery",
-            "color": "orange1",
-            "description": "Gallery of PL questions"
-        }
-    ],
+      {"name" : "Python", "color": "brown3"},
+      {"name" : "Errors", "color": "red1"},
+      {"name" : "BigO", "color": "red2"},
+      {"name" : "MonteCarlo", "color": "yellow1"},
+      {"name" : "TaylorSeries", "color": "red1"},
+      {"name" : "FloatingPoint", "color": "red2"},
+      {"name" : "Norms", "color": "gray1"},
+      {"name" : "Conditioning", "color": "gray1"},
+      {"name" : "LinearSystemEquations", "color": "brown1"},
+      {"name" : "Eigenvalues", "color": "green1"},
+      {"name" : "Finite Difference", "color": "green1"},
+      {"name" : "SVD", "color": "green2"},
+      {"name" : "Model-sparse", "color": "green3"},
+      {"name" : "LinearLeastSquares", "color": "green1"},
+      {"name" : "NonlinearSolve1D", "color": "brown1"},
+      {"name" : "NonlinearSolveND", "color": "brown2"},
+      {"name" : "Optimization1D", "color": "blue2"},
+      {"name" : "OptimizationND", "color": "blue2"}
+
+		],
     "tags": [
-        {
-            "name": "mariana@prairielearn.com",
-            "color": "gray1",
-            "description": "Author of the original question"
-        }
-    ],
-    "timezone": "America/Chicago"
+        {"name": "short-coding", "color": "red1"},
+        {"name": "calculation", "color": "blue2", "description": "numerical input is expected resulting from calculations"},
+        {"name": "workspace", "color": "purple2", "description": "jupyter notebooks with examples"},
+        {"name": "mc", "color": "green1", "description": "multiple-choice question"},
+        {"name": "dropdown", "color": "green2", "description": "dropdown menu question"},
+        {"name": "conceptual", "color": "purple1", "description": "checks concept knowledge"},
+        {"name": "author:prairielearn.com", "color": "blue3", "description": "questions created by prairielearn team"},
+        {"name": "license:CC-BY-NC", "color": "yellow3", "description": "license for all prairielearn.com questions"}
+    ]
 }

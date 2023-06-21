@@ -1,0 +1,20 @@
+{
+  "uuid": "8e471198-380c-496f-80e6-7d18b13ec8db",
+  "title": "Calculating a Volume of Intersection",
+  "topic": "MonteCarlo",
+  "tags": [
+    "author:prairielearn.com",
+    "license:CC-BY-NC",
+    "sp20",
+    "short-coding"
+  ],
+  "type": "v3",
+  "singleVariant": true,
+  "gradingMethod": "External",
+  "externalGradingOptions": {
+    "enabled": true,
+    "image": "prairielearn/grader-python",
+    "entrypoint": "/python_autograder/run.sh",
+    "timeout": 60
+  }
+}
