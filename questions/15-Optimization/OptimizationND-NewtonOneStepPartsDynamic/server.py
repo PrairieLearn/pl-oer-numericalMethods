@@ -24,7 +24,7 @@ def generate(data):
         f, x0, y0 = func()
         g1 = diff(f, x0).evalf(subs={x0: x, y0: y})
         g2 = diff(f, y0).evalf(subs={x0: x, y0: y})
-        return np.array([g1, g2]).astype(np.float)
+        return np.array([g1, g2]).astype(float)
 
     def steepest_descent_direction(x_init):
         s = -1 * gradient(x_init[0], x_init[1])
@@ -37,7 +37,7 @@ def generate(data):
         h12 = diff(f, x0, y0).evalf(subs={x0: x, y0: y})
         h21 = diff(f, y0, x0).evalf(subs={x0: x, y0: y})
         h22 = diff(f, y0, y0).evalf(subs={x0: x, y0: y})
-        return np.array([[h11, h12], [h21, h22]]).astype(np.float)
+        return np.array([[h11, h12], [h21, h22]]).astype(float)
 
     def newtons_method(x_init):
         H = hessian(x_init[0], x_init[1])
