@@ -34,7 +34,8 @@
                 {"id": "03-Error-BigO/Error-DeriveTrueValue-v1", "points": 1, "maxPoints": 3},
                 {"id": "03-Error-BigO/BigO-DetermineBigO", "points": 1, "maxPoints": 3},
                 {"id": "03-Error-BigO/Error-MediumRelativeErrorProduct", "points": 1, "maxPoints": 3},
-               {"id": "03-Error-BigO/Error-RelativeErrorCoding_v1", "points": 2, "maxPoints": 2}
+               {"id": "03-Error-BigO/Error-RelativeErrorCoding_v1", "points": 2, "maxPoints": 2},
+               {"id": "@uiuc-cs357/03-Error-BigO/Error-Code-Integral", "points": 2, "maxPoints": 2}
             ]
         },
         {
