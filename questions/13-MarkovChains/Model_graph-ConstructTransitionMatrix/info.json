@@ -8,5 +8,6 @@
     "license:CC-BY-NC",
     "sp19",
     "calculation"
-  ]
+  ],
+  "sharedPublicly": true
 }

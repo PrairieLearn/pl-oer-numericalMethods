@@ -8,5 +8,6 @@
     "license:CC-BY-NC",
     "fa18",
     "calculation"
-  ]
+  ],
+  "sharedPublicly": true
 }

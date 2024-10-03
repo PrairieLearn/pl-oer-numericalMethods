@@ -25,5 +25,6 @@
     "gradedFiles": [
       "numpy_demo.ipynb"
     ]
-  }
+  },
+  "sharedPublicly": true
 }

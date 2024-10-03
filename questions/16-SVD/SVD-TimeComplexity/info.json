@@ -8,5 +8,6 @@
     "license:CC-BY-NC",
     "mc",
     "sp20"
-  ]
+  ],
+  "sharedPublicly": true
 }

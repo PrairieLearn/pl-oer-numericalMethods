@@ -8,5 +8,6 @@
     "fa18",
     "mc"
   ],
-  "type": "v3"
+  "type": "v3",
+  "sharedPublicly": true
 }
